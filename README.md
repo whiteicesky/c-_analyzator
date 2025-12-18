@@ -16,7 +16,7 @@ wxWidgets - бесплатной кроссплатформенной библи
 для создания приложений с GUI (Графическим интерфейсом пользователя)
 
 - Для начала работы необходимо установить wxWidgets:
-Откройте PowerShell.
+- Откройте PowerShell и введите следующие команды:
   
 ```cd C:\Users\Admin\Desktop```
    
@@ -37,9 +37,7 @@ Visual Studio → File → New → Project → Empty Project (C++).
 - В свойствах проекта: Linker → System → SubSystem → Windows (/SUBSYSTEM:WINDOWS).
 
 ## Запуск
-Запуск производится из Visual Studio
-
-
+Запуск производится сразу из Visual Studio
 
 ## Пример использования (словами)
 - Введите: `Привет мир! Это тест. Это пример.`  
