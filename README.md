@@ -30,7 +30,8 @@ wxWidgets - бесплатной кроссплатформенной библи
 
 7. ```.\vcpkg install wxwidgets:x64-windows```
 
-
+![1](1.png)
+![2](2.png)
 ## Проект
 1. Создай проект и подключи main.cpp:
 Visual Studio → File → New → Project → Empty Project (C++).
