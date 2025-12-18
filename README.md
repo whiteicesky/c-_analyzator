@@ -1,4 +1,4 @@
-# Анализатор текста на C++
+<img width="877" height="743" alt="image" src="https://github.com/user-attachments/assets/778f1921-59fe-4388-92ca-d15416c11fc5" /># Анализатор текста на C++
 
 ## Описание
 - GUI-приложение на C++ с использованием wxWidgets.
@@ -29,6 +29,7 @@ wxWidgets - бесплатной кроссплатформенной библи
 6. ```.\vcpkg integrate install```
 
 7. ```.\vcpkg install wxwidgets:x64-windows```
+
 
 ## Проект
 1. Создай проект и подключи main.cpp:
