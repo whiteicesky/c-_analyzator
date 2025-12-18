@@ -36,7 +36,7 @@ wxWidgets - бесплатной кроссплатформенной библи
 1. Создай проект и подключи main.cpp:
 Visual Studio → File → New → Project → Empty Project (C++).
 2. В Solution Explorer: правый клик по проекту → Add → Existing Item... → main.cpp.
-3. В свойствах проекта: Linker → System → SubSystem → Windows (/SUBSYSTEM:WINDOWS).
+3. В свойствах проекта: Linker → System → SubSystem → Windows (/SUBSYSTEM:WINDOWS) и нажать Применить/Apply.
 ![3](3.png)
 ![4](4.png)
 ![5](5.png)
