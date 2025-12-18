@@ -15,27 +15,40 @@
 wxWidgets - бесплатной кроссплатформенной библиотеки с открытым кодом
 для создания приложений с GUI (Графическим интерфейсом пользователя)
 
-Для начала работы необходимо установить wxWidgets:
+- Для начала работы необходимо установить wxWidgets:
 Откройте PowerShell.
   
-'cd C:\Users\Admin\Desktop'
+```cd C:\Users\Admin\Desktop```
    
-'''git clone https://github.com/microsoft/vcpkg'''
+```git clone https://github.com/microsoft/vcpkg```
    
-'''cd vcpkg'''
+```cd vcpkg```
    
-'''.\bootstrap-vcpkg.bat'''
+```.\bootstrap-vcpkg.bat```
 
-'''.\vcpkg integrate install'''
+```.\vcpkg integrate install```
 
-'''.\vcpkg install wxwidgets:x64-windows'''
+```.\vcpkg install wxwidgets:x64-windows```
 
-Создай проект и подключи main.cpp:
+## Проект
+- Создай проект и подключи main.cpp:
 Visual Studio → File → New → Project → Empty Project (C++).
-Platform: x64 (вверху в VS: Debug|x64).
-В Solution Explorer: правый клик по проекту → Add → Existing Item... → выбери C:\Users\Admin\Desktop\1\main.cpp.
-В свойствах проекта: Linker → System → SubSystem → Windows (/SUBSYSTEM:WINDOWS).
-Запусти:
-Build → Build Solution (Ctrl+Shift+B).
-Debug → Start Without Debugging (Ctrl+F5).
-Должно открыться окно “Анализатор текста…”.
+- В Solution Explorer: правый клик по проекту → Add → Existing Item... → main.cpp.
+- В свойствах проекта: Linker → System → SubSystem → Windows (/SUBSYSTEM:WINDOWS).
+
+## Запуск
+Запуск производится из Visual Studio
+
+
+
+## Пример использования (словами)
+- Введите: `Привет мир! Это тест. Это пример.`  
+- Режим: «Слово», искомое: `это` → результат: `2 раз(а)`.  
+- Режим: «Символ», искомый: `т` → результат зависит от текста, регистр учитывается.
+
+## Ограничения
+- Слова считаются по пробелам; пунктуация внутри слов не удаляется.
+- Предложения считаются по символам `.`, `!`, `?`; многоточие учитывается как несколько предложений.
+- Сравнение слов без учёта регистра; сравнение символов — с учётом регистра.
+- Символы без пробелов считаются, исключая только `' '`; другие пробельные символы учитываются.
+- Расширенная обработка Unicode не выполняется (расчёт предполагает однобайтовую кодировку консоли/GUI).
