@@ -37,10 +37,15 @@ wxWidgets - бесплатной кроссплатформенной библи
 Visual Studio → File → New → Project → Empty Project (C++).
 2. В Solution Explorer: правый клик по проекту → Add → Existing Item... → main.cpp.
 3. В свойствах проекта: Linker → System → SubSystem → Windows (/SUBSYSTEM:WINDOWS).
-
+![3](3.png)
+![4](4.png)
+![5](5.png)
+![6](6.png)
+![7](7.png)
+![8](8.png)
 ## Запуск
 Запуск производится сразу из Visual Studio
-
+![9](9.png)
 ## Пример использования (словами)
 - Введите: `Привет мир! Это тест. Это пример.`  
 - Режим: «Слово», искомое: `это` → результат: `2 раз(а)`.  
