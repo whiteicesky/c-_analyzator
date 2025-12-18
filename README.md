@@ -3,19 +3,19 @@ wxWidgets - бесплатной кроссплатформенной библи
 для создания приложений с GUI (Графическим интерфейсом пользователя)
 
 Для начала работы необходимо установить wxWidgets:
-1) Откройте PowerShell.
+Откройте PowerShell.
   
-2) cd C:\Users\Admin\Desktop
+'''cd C:\Users\Admin\Desktop'''
    
-3) git clone https://github.com/microsoft/vcpkg
+'''git clone https://github.com/microsoft/vcpkg'''
    
-3) cd vcpkg
+'''cd vcpkg'''
    
-4) .\bootstrap-vcpkg.bat
+'''.\bootstrap-vcpkg.bat'''
 
-5).\vcpkg integrate install
+'''.\vcpkg integrate install'''
 
-6) .\vcpkg install wxwidgets:x64-windows
+'''.\vcpkg install wxwidgets:x64-windows'''
 
 Создай проект и подключи main.cpp:
 Visual Studio → File → New → Project → Empty Project (C++).
