@@ -4,12 +4,18 @@ wxWidgets - бесплатной кроссплатформенной библи
 
 Для начала работы необходимо установить wxWidgets:
 1) Откройте PowerShell.
+  
 2) cd C:\Users\Admin\Desktop
+   
 3) git clone https://github.com/microsoft/vcpkg
-4) cd vcpkg
-5) .\bootstrap-vcpkg.bat
-6).\vcpkg integrate install
-7) .\vcpkg install wxwidgets:x64-windows
+   
+3) cd vcpkg
+   
+4) .\bootstrap-vcpkg.bat
+
+5).\vcpkg integrate install
+
+6) .\vcpkg install wxwidgets:x64-windows
 
 Создай проект и подключи main.cpp:
 Visual Studio → File → New → Project → Empty Project (C++).
