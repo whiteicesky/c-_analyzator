@@ -1,4 +1,4 @@
-<img width="877" height="743" alt="image" src="https://github.com/user-attachments/assets/778f1921-59fe-4388-92ca-d15416c11fc5" /># Анализатор текста на C++
+# Анализатор текста на C++
 
 ## Описание
 - GUI-приложение на C++ с использованием wxWidgets.
