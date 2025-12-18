@@ -5,7 +5,7 @@ wxWidgets - бесплатной кроссплатформенной библи
 Для начала работы необходимо установить wxWidgets:
 Откройте PowerShell.
   
-'''cd C:\Users\Admin\Desktop'''
+'cd C:\Users\Admin\Desktop'
    
 '''git clone https://github.com/microsoft/vcpkg'''
    
